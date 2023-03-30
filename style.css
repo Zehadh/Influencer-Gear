@@ -1,0 +1,411 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/********** 
+Navbar Part 
+**********/
+
+.navbar {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.nav-items {
+    margin: auto 0;
+}
+
+.nav-items a,
+i {
+    font-size: 16px;
+    margin: 0 17px;
+}
+
+/************
+First Section
+************/
+
+.first-section {
+    display: flex;
+    margin-top: 50px;
+}
+
+.first-section .first-half {
+    margin: 40px;
+}
+
+.first-section-title {
+    font-size: 52px;
+    margin-bottom: 0px;
+}
+
+.first-section-thumbnail {
+    width: 440px;
+    height: 414px;
+    margin: 0 45px;
+}
+
+.first-section-button {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.first-section-button i {
+    margin: 0 0 0 10px;
+}
+
+/*************
+Second Section
+*************/
+
+.second-section {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+}
+
+.brands img {
+    margin: 40px 30px;
+}
+
+hr {
+    margin: 30px 0;
+    height: 2px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, rgb(48, 47, 47)));
+}
+
+/*************
+Third Section
+*************/
+
+.third-section-title h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 75px 60px 75px;
+    grid-gap: 30px;
+}
+
+.item {
+    width: 329px;
+    height: 476px;
+    box-shadow: 10px 10px 60px rgb(185, 184, 184);
+    border-radius: 10px;
+}
+
+.item-thumbnail img {
+    width: 300px;
+    height: 256px;
+    padding: 0px 15px;
+    padding-top: 17px;
+}
+
+.item-details {
+    margin: 16px 14px;
+}
+
+.item-details h2,
+p,
+i {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.item-price {
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    margin-top: 6px;
+    color: #3A3A3A !important;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.ratings i {
+    font-size: 10px;
+    color: #FB8200;
+    margin: 1px;
+}
+
+.rating-point {
+    margin-left: 10px;
+}
+
+.text {
+    margin-top: 8px;
+}
+
+.item h2 {
+    font-weight: 400;
+}
+
+.item p,
+h5 {
+    font-family: 'Inter', sans-serif;
+}
+
+.item p {
+    font-size: 14px;
+    font-weight: 900;
+    color: #787885;
+}
+
+.third-section h5 {
+    text-align: end;
+    margin: 0 60px;
+    font-size: 16px;
+    color: #E02C6DDE
+}
+
+/*************
+Forth Section
+*************/
+
+.forth-section {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.forth-section-thumbnail {
+    margin: 0 40px;
+}
+
+.forth-section-title {
+    font-size: 38px;
+    color: #0A0826;
+}
+
+.forth-section p {
+    color: #6C6C6C;
+}
+
+.forth-section-button {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.forth-section-button i {
+    margin: 0 0 0 10px;
+}
+
+.forth-section .second-half {
+    margin: 0 50px 50px 50px;
+}
+
+/**********
+Footer Part
+**********/
+
+footer {
+    background-color: rgb(17, 17, 37);
+}
+
+.footer-part {
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+}
+
+.footer-title {
+    margin-bottom: 0px;
+}
+
+footer small {
+    font-family: 'Manrope', sans-serif;
+}
+
+.social-media {
+    margin-top: 17px;
+}
+
+.social-media i {
+    background-color: rgb(78, 77, 77);
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 0px 8px;
+}
+
+/**************
+Responsive Part
+**************/
+
+@media (max-width:760px) {
+    
+
+    .custom {
+        visibility: hidden;
+    }
+
+    .first-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .first-section-thumbnail {
+        width: 257px;
+        height: 257px;
+    }
+
+    .first-section-title {
+        font-size: 28px;
+    }
+
+    .second-section {
+        margin-top: 20px;
+    }
+
+    .brands{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-first-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-second-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brands img {
+        height: 20px;
+        margin: 10px 18px;
+    }
+
+    .special-brand{
+        height: 35px !important;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .third-section-title {
+        font-size: 16px;
+    }
+
+    .items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .forth-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:761px) and (max-width:992px) {
+    .custom {
+        visibility: hidden;
+    }
+
+    .first-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .first-section-thumbnail {
+        width: 257px;
+        height: 257px;
+    }
+
+    .first-section-title {
+        font-size: 28px;
+    }
+
+    .second-section {
+        margin-top: 20px;
+    }
+
+    .brands{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-first-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brand-second-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brands img {
+        height: 30px;
+        margin: 10px 20px;
+    }
+
+    .special-brand{
+        height: 40px !important;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+    .third-section-title {
+        font-size: 16px;
+    }
+
+    .items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .forth-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
