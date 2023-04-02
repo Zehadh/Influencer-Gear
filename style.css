@@ -237,6 +237,7 @@ Footer Part
 
 footer {
     background-color: rgb(17, 17, 37);
+    width: 100%;
 }
 
 .footer-part {
@@ -271,14 +272,12 @@ Responsive Part
 
 @media (max-width:760px) {
     
-
-    .custom {
+    .nav-items {
         visibility: hidden;
     }
 
     .first-section {
         flex-direction: column-reverse;
-        text-align: center;
     }
 
     .first-section-thumbnail {
@@ -326,6 +325,12 @@ Responsive Part
 
     .third-section-title {
         font-size: 16px;
+    }
+
+    .third-section-main{
+        font-display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .items {
